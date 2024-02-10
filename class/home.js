@@ -20,7 +20,7 @@ class Home extends React.Component{
 
     render(){
         return (
-            <div style={{backgroundColor:this.state.bgcolor, color:this.state.color}}>
+            <div style={{backgroundColor:this.state.bgcolor}}>
                 <h1>HOME</h1>
                 <h2>{this.props.name}</h2>
                 <button style={{backgroundColor:this.state.btncolor}} type='submit' onClick={this.handleColorChange}>Change Color</button>
