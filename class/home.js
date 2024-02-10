@@ -31,7 +31,7 @@ class Home extends React.Component{
 Home.defaultProps = {
     name:'10000 coders'
 }
-Home.prototypes = {
+Home.propTypes = {
     name:PropTypes.string.isRequired,
 }
 
