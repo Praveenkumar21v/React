@@ -11,7 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
-/* .formContainer{
+.formContainer{
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -19,9 +19,9 @@ code {
 
 .btn{
   width: 180px;
-  align-self: flex-end;
-} */
-h1{
+  align-self: flex-start;
+}
+/* h1{
   text-align: center;
   color: lightblue;
   background-color: black;
@@ -52,4 +52,4 @@ button{
   color:black;
   background-color:pink;
   padding:10px 10px;
-}
+} */

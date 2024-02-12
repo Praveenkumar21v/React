@@ -6,11 +6,12 @@ import './index.css';
 // import Contact from './function/contact';
 // import ListOfItems from './function/ListOfItems';
 // import Employee from './function/Employee';
-// import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css"
 // import LoginFunc from './function/loginFunc';
 // import LifeCycle from './class/Lifecycle';
 // import LC from './function/Lc';
-import Signup from './function/signup';
+// import Signup from './function/signup';
+import Login from './function/login';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<div>
 {/* <Home/>
@@ -21,7 +22,8 @@ root.render(<div>
 <LC/> */}
 {/* <LoginClass/> */}
 {/* <LoginFunc/> */}
-<Signup/>
+{/* <Signup/> */}
+<Login/>
 </div>
 );
 
