@@ -29,7 +29,7 @@ useEffect(()=>{
 
 const handleSubmit = (event) =>{
     event.preventDefault();
-    navigate('/',{state:{fname:formData.firstName,lname:formData.lastName , gender:formData.Gender , checked:formData.agreeTerms}});
+    navigate('/login',{state:{fname:formData.firstName,lname:formData.lastName , gender:formData.Gender , checked:formData.agreeTerms}});
 }
   return (
     <div className="container">
