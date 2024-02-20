@@ -7,7 +7,8 @@ const EditTodo = () => {
 const location=useLocation();
 const navigate=useNavigate();
 const {id,todo}=location?.state ;
-const [updateTodo,setUpdateTodo]=React.useState(todo ?? "");
+const [updateTodo,setUpdateTodo]=React.useState(todo ?? ""); // nullish coalescing operator, which returns the right-hand operand when the left-hand operand is null or undefined, and otherwise, it returns the left-hand operand.So, in this case, if todo is null or undefined, updateTodo will be an empty string; otherwise, it will be the value of todo.
+
  
 const handleEditTodo=(e)=>{
     e.preventDefault();
