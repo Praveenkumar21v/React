@@ -12,8 +12,7 @@ import SignUp from './Pages/Signup';
 import Navbar from './Components/Navbar';
 import Nopage from './Pages/Nopage';
 import Career from './Pages/Career';
-import ToDoList from './Pages/ToDoList';
-import './TodoList.css'
+'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,7 +25,7 @@ root.render(
     <Route path='/home' element={<Home/>}/>
     <Route path='/signup' element={<SignUp/>}/>
     <Route path='/login' element={<Login/>}/>
-    <Route path='/todo' element={<ToDoList/>}/>
+ 
     <Route path='/contact' element={<Contact/>}/>
      <Route path='*' element={<Nopage/>}/>
     </Routes>
