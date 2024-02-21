@@ -1,0 +1,13 @@
+import React from "react";
+import ComponentC from "./componentC";
+
+const ComponentB = ({ name }) => {
+  return (
+    <div>
+      Component-B
+      <ComponentC nameValue={name} />
+    </div>
+  );
+};
+
+export default ComponentB;
