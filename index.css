@@ -1,0 +1,62 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.btn{
+  width: 180px;
+  align-self: flex-start;
+}
+
+
+/* h1{
+  text-align: center;
+  color: lightblue;
+  background-color: black;
+}
+.FormContainer{
+ 
+  gap: 20px;
+  display: grid;
+}
+.form-control{
+margin: auto 20px;
+padding: 15px 15px;
+}
+.Date{
+  display:grid;
+  gap:10px;
+}
+label{
+  font-size: 20px;
+}
+.datetime{
+  max-width: 200px;
+  
+}
+button{
+  max-width: 150px;
+  margin-left: 40%;
+  color:black;
+  background-color:pink;
+  padding:10px 10px;
+} */
+h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow around the text */
+
+}
