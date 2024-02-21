@@ -1,0 +1,21 @@
+// import React from "react";
+import React, { useState, createContext } from "react";
+
+import ComponentB from "./componentB";
+
+export const UserContext = createContext(null);
+
+const ComponentA = () => {
+  const [name, setName] = useState("");
+  const UserContextValue = { name, setName };
+  return (
+    <UserContext.Provider value={UserContextValue}>
+      <div>
+        Component-A {name}
+        <ComponentB />
+      </div>
+    </UserContext.Provider>
+  );
+};
+
+export default ComponentA;
