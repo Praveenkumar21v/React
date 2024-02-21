@@ -1,0 +1,7 @@
+import React from "react";
+
+const ComponentD = ({ test }) => {
+  return <div>Component-D {test}</div>;
+};
+
+export default ComponentD;
