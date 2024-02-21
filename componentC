@@ -1,0 +1,12 @@
+import React from "react";
+import ComponentD from "./componentD";
+const ComponentC = ({ nameValue }) => {
+  return (
+    <div>
+      Component-C {nameValue}
+      <ComponentD test={nameValue} />
+    </div>
+  );
+};
+
+export default ComponentC;
