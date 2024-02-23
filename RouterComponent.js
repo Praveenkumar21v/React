@@ -7,7 +7,6 @@ import Contact from './Pages/Contact';
 import SignUp from './Pages/Signup';
 import Navbar from './Components/Navbar';
 import Nopage from './Pages/Nopage';
-// import Career from './Pages/Career';
 import ToDoList from './Pages/ToDoList';
 import './TodoList.css'
 import EditTodo from './Pages/EditTodo';
@@ -30,7 +29,6 @@ const RouterComponent = () => {
     {isAuth && (
     <>
      <Route path='/aboutus' element={<Aboutus/>}/>
-    {/* <Route path='/career' element={<Career/>}/> */}
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/todo' element={<ToDoList/>}/>
     <Route path='/todo/:id' element={<EditTodo/>}/>
